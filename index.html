@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>a simple testing website</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container" style="overflow: hidden">
+        <div class="navbar">
+            <img src="resourses/logo.png" alt="" class="logo">
+            <div id="menubar">
+                <ul id="menulist">
+                    <li><a href="#">playlist</a></li>
+                    <li><a href="#">featured</a></li>
+                    <li><a href="#">login</a></li>
+                </ul>
+            </div>
+            <img src="resourses/menu.png" id="menu_icon" onclick="toggle()">
+        </div>
+        <div class="content">
+            <div class="top">
+                <div class="left">
+                    <h1>the <br> real <br>sound </h1>
+                </div>
+                <div class="right">
+                    <h5>add songs to playlist</h5>
+                    <img src="resourses/add.png">
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="musicplayer">
+                    <img src="resourses/prev.png" onclick="prev()">
+                    <img src="resourses/music resme.png" id="icon" onclick="togglePlay()">
+                    <img src="resourses/next.png" onclick="next()">
+                    <div class="progress" id="progress"></div>
+                </div>
+
+                <div class="right_bottom">
+                    <h5>add songs to playlist</h5>
+                    <img src="resourses/add.png" onclick="add()">
+                </div>
+            </div>
+        </div>
+    </div>
+    <audio id="music" src="resourses/music.mp3" type="audio/mp3"> </audio>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>

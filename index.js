@@ -52,4 +52,4 @@ function toggle() {
         menue.style.display = "none";
         menu_icon.src = "resourses/menu.png"
     }
-}
+}z

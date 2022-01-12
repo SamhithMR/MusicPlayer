@@ -2,8 +2,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Libre Baskerville', serif;
 }
+
+@font-face {
+    font-family: shrikhand_font;
+    src: url(resourses/Shrikhand-Regular.ttf);
+  }
 
 .container {
     background-image: url("resourses/head\ phone4.png"), linear-gradient(45deg, #f5bc42 50%, #5e5e59 50%);
@@ -13,6 +17,7 @@
     background-size: contain;
     background-position: center;
     z-index: 2;
+    font-family:shrikhand_font;
 }
 
 .navbar {
@@ -47,7 +52,7 @@
     border-radius: 40px;
     border-color: #f5bc42;
     background-color: #f5bc42;
-    color: #757575;
+    color: #5e5e59;
     box-shadow: #5e5e59;
 }
 
@@ -89,13 +94,15 @@
 
 .right h5 {
     margin-top: 05%;
+    color: #f5bc42;
+    font-size: 20px;
 }
 
 .left h1 {
-    color: #726c5a;
+    color: #5e5e59;
     font-size: 70px;
     letter-spacing: 15px;
-    line-height: 120px;
+    line-height: 100px;
 }
 
 .musicpalyer {
@@ -115,8 +122,7 @@
 .progress {
     width: 2px;
     height: 5px;
-    background-color: red;
-    background: #3d3c38;
+    background: #5e5e59;
     transition: width .1s linear;
 }
 
@@ -156,6 +162,10 @@
 
     .right {
         display: none;
+    }
+
+    .right h5 {
+        color: #5e5e59;
     }
 
     .bottom {

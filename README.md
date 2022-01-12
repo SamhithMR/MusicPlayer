@@ -1,7 +1,7 @@
 
 # Music Player
 
-A simple music player UI using html, css and javascript
+A simple music player UI using html, css and javascript.
 
 
 ## This is a simple javascript project focused on
@@ -15,13 +15,8 @@ A simple music player UI using html, css and javascript
 
 ## Screenshots
 
-<<<<<<< HEAD
-![preview on desktop view](https://github.com/SamhithMR/Musicplayer/blob/main/%40Resources/preview.jpg)
-![preview on mobile view](https://github.com/SamhithMR/Musicplayer/blob/main/%40Resources/previewmobileview.jpg)
-=======
 ![preview on desktop view](https://github.com/SamhithMR/MusicPlayer/blob/main/resourses/preview.jpg)
 ![preview on mobile view](https://github.com/SamhithMR/MusicPlayer/blob/main/resourses/preview_mobileview.jpg)
->>>>>>> 75972d5e13f6ec43a5c9fc2a33c56b3f85cfeaa9
 
 ## Color Reference
 
